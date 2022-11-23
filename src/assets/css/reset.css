@@ -1,0 +1,188 @@
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-family: PingFangSC-Regular, Microsoft Yahei, sans-serif;
+}
+input {
+  border: none;
+  outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+img,
+embed,
+object,
+audio,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+  text-align: left;
+}
+
+input:-webkit-autofill {
+ transition: background-color 50000s ease-in-out 0s;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  font-family: PingFangSC-Regular, Microsoft Yahei, sans-serif;
+  padding: 0!important;
+}
+i, em {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+img {
+  vertical-align: top;
+}
+button {
+  padding: 0;
+  background: initial;
+  border: none;
+  cursor: pointer;
+}
+.container {
+  width: 1400px;
+  min-width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.el-pagination.is-background .btn-prev, .el-pagination.is-background .btn-next, .el-pagination.is-background .el-pager li {
+  background-color: #F6F6F9 !important;
+}
+
+.el-pager .number {
+  border: 1px solid #F6F6F9;
+}
+.el-pager li.active + li {
+  border-left: 1px solid #F6F6F9 !important;
+}
+.el-pagination.is-background .el-pager li:not(.disabled):hover {
+  color: #FF708B !important;
+}
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: #FF708B !important;
+  border-color: #FF708B;
+  color: #fff !important;
+}
+.el-pagination.is-background .btn-prev, .el-pagination.is-background .btn-next, .el-pagination.is-background .el-pager li {
+  border: 1px solid #F6F6F9;
+}
+.el-button[name="primary"],
+.el-button[name="primary"]:hover,
+.el-button[name="primary"]:focus {
+  background: #FF708B;
+  border-color: #FF708B;
+  color: #fff;
+}
+.el-button[name="warning"],
+.el-button[name="warning"]:hover,
+.el-button[name="warning"]:focus {
+  background: #FDEFF1;
+  border-color: #FDEFF1;
+  color: #FF2E42;
+}
+.el-button[name="info"],
+.el-button[name="info"]:hover,
+.el-button[name="info"]:focus {
+  background: #F6F6F9;
+  border-color: #F6F6F9;
+  color: #64698F;
+}
+
+.el-select .el-tag__close.el-icon-close::before {
+  transform: translate(0, 2.5px) !important;
+}
+.modal-title {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3E4373;
+}
+.dialog-border .el-dialog__header {
+  border-bottom: 1px solid #EDEDED;
+}
+  
+.dialog-border .el-dialog__body {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #EDEDED;
+}
+.permission-hide {
+  display: none !important;
+}
